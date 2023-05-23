@@ -193,7 +193,7 @@
         <protobuf.maven.plugin.version>0.6.1</protobuf.maven.plugin.version>
         <os.maven.plugin.version>1.6.0</os.maven.plugin.version>
         <kudu.version>1.16.0</kudu.version>
-        <tomcat.version>8.5.53</tomcat.version>
+        <tomcat.version>8.5.88</tomcat.version>
         <jedis.version>2.9.0</jedis.version>
         <poi.version>5.2.3</poi.version>
         <jsqlparser.version>4.2</jsqlparser.version>
@@ -1296,7 +1296,7 @@
                         <licenseHeader>
                             <file>codestyle/license-header</file>
                         </licenseHeader>
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
                         <replaceRegex>
                             <name>Remove wildcard imports</name>
                             <searchRegex>import\s+[^\*\s]+\*;(\r\n|\r|\n)</searchRegex>
@@ -1330,7 +1330,7 @@
                         <excludes>
                             <exclude>**/.github/**/*.md</exclude>
                         </excludes>
-                        <flexmark />
+                        <flexmark/>
                     </markdown>
                 </configuration>
                 <executions>
@@ -1362,7 +1362,7 @@
                         <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                            <notes />
+                            <notes/>
                             <patterns>
                                 <pattern>Licensed to the Apache Software Foundation (ASF) under
                                     one</pattern>
