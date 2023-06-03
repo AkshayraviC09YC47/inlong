@@ -87,7 +87,7 @@
         <spring.autoconfigure.version>2.4.3</spring.autoconfigure.version>
         <spring.plugin.version>2.6.6</spring.plugin.version>
         <spring.fox.version>3.0.0</spring.fox.version>
-        <pagehelper.springboot.version>1.4.2</pagehelper.springboot.version>
+        <pagehelper.springboot.version>1.4.7</pagehelper.springboot.version>
         <pagehelper.version>5.3.1</pagehelper.version>
 
         <h2.version>2.1.214</h2.version>
@@ -1296,7 +1296,7 @@
                         <licenseHeader>
                             <file>codestyle/license-header</file>
                         </licenseHeader>
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
                         <replaceRegex>
                             <name>Remove wildcard imports</name>
                             <searchRegex>import\s+[^\*\s]+\*;(\r\n|\r|\n)</searchRegex>
@@ -1330,7 +1330,7 @@
                         <excludes>
                             <exclude>**/.github/**/*.md</exclude>
                         </excludes>
-                        <flexmark />
+                        <flexmark/>
                     </markdown>
                 </configuration>
                 <executions>
@@ -1362,7 +1362,7 @@
                         <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                            <notes />
+                            <notes/>
                             <patterns>
                                 <pattern>Licensed to the Apache Software Foundation (ASF) under
                                     one</pattern>
