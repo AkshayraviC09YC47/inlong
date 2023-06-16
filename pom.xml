@@ -106,7 +106,7 @@
         <elasticsearch7.version>7.9.2</elasticsearch7.version>
         <shiro.version>1.10.1</shiro.version>
 
-        <snappy.version>1.1.8.4</snappy.version>
+        <snappy.version>1.1.10.1</snappy.version>
         <protobuf.version>3.19.6</protobuf.version>
         <bytebuddy.version>1.12.9</bytebuddy.version>
         <reflections.version>0.10.2</reflections.version>
@@ -1296,7 +1296,7 @@
                         <licenseHeader>
                             <file>codestyle/license-header</file>
                         </licenseHeader>
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
                         <replaceRegex>
                             <name>Remove wildcard imports</name>
                             <searchRegex>import\s+[^\*\s]+\*;(\r\n|\r|\n)</searchRegex>
@@ -1330,7 +1330,7 @@
                         <excludes>
                             <exclude>**/.github/**/*.md</exclude>
                         </excludes>
-                        <flexmark />
+                        <flexmark/>
                     </markdown>
                 </configuration>
                 <executions>
@@ -1362,7 +1362,7 @@
                         <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                            <notes />
+                            <notes/>
                             <patterns>
                                 <pattern>Licensed to the Apache Software Foundation (ASF) under
                                     one</pattern>
