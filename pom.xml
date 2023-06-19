@@ -123,7 +123,7 @@
         <commons.collections.version>3.2.2</commons.collections.version>
         <commons.collections4.version>4.3</commons.collections4.version>
 
-        <guava.version>31.0.1-jre</guava.version>
+        <guava.version>32.0.0-jre</guava.version>
         <lombok.version>1.18.22</lombok.version>
         <jetty.version>9.4.48.v20220622</jetty.version>
         <opencsv.version>5.4</opencsv.version>
@@ -1296,7 +1296,7 @@
                         <licenseHeader>
                             <file>codestyle/license-header</file>
                         </licenseHeader>
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
                         <replaceRegex>
                             <name>Remove wildcard imports</name>
                             <searchRegex>import\s+[^\*\s]+\*;(\r\n|\r|\n)</searchRegex>
@@ -1330,7 +1330,7 @@
                         <excludes>
                             <exclude>**/.github/**/*.md</exclude>
                         </excludes>
-                        <flexmark />
+                        <flexmark/>
                     </markdown>
                 </configuration>
                 <executions>
@@ -1362,7 +1362,7 @@
                         <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                            <notes />
+                            <notes/>
                             <patterns>
                                 <pattern>Licensed to the Apache Software Foundation (ASF) under
                                     one</pattern>
