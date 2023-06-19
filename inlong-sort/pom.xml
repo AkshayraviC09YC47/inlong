@@ -41,7 +41,7 @@
         <module>sort-flink</module>
     </modules>
     <properties>
-        <debezium.version>1.5.4.Final</debezium.version>
+        <debezium.version>2.0.0.Final</debezium.version>
         <kafka.clients.version>2.7.0</kafka.clients.version>
         <rat.basedir>${basedir}</rat.basedir>
         <hbase.version>2.2.3</hbase.version>
@@ -118,7 +118,7 @@
                                 <dependencyReducedPomLocation>${project.basedir}/target/dependency-reduced-pom.xml</dependencyReducedPomLocation>
                                 <createSourcesJar>true</createSourcesJar>
                                 <transformers>
-                                    <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                                    <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                                 </transformers>
                             </configuration>
                         </execution>
