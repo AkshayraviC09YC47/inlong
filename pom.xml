@@ -94,7 +94,7 @@
         <h2.mysql.version>2.0.0</h2.mysql.version>
         <rocksdb.version>6.14.6</rocksdb.version>
         <redis-replicator.version>3.6.4</redis-replicator.version>
-        <hadoop.version>2.10.2</hadoop.version>
+        <hadoop.version>3.3.1</hadoop.version>
         <postgresql.version>42.4.1</postgresql.version>
         <oracle.jdbc.version>19.3.0.0</oracle.jdbc.version>
         <mysql.jdbc.version>8.0.21</mysql.jdbc.version>
@@ -1296,7 +1296,7 @@
                         <licenseHeader>
                             <file>codestyle/license-header</file>
                         </licenseHeader>
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
                         <replaceRegex>
                             <name>Remove wildcard imports</name>
                             <searchRegex>import\s+[^\*\s]+\*;(\r\n|\r|\n)</searchRegex>
@@ -1330,7 +1330,7 @@
                         <excludes>
                             <exclude>**/.github/**/*.md</exclude>
                         </excludes>
-                        <flexmark />
+                        <flexmark/>
                     </markdown>
                 </configuration>
                 <executions>
@@ -1362,7 +1362,7 @@
                         <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                            <notes />
+                            <notes/>
                             <patterns>
                                 <pattern>Licensed to the Apache Software Foundation (ASF) under
                                     one</pattern>
